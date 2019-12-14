@@ -104,6 +104,12 @@
           <name>Test snapshot Nexus Repository </name>
           <url>http://54.144.213.74:8081/repository/M2-Snapshot/</url>
         </snapshotRepository>
+       <uatrepository>
+          <id>nexus</id>
+          <name>testing Nexus Repository for uat</name>
+          <url>http://54.144.213.74:8081/repository/M2_UAT/</url>
+        </repository>
+
     </distributionManagement>
 
    <profiles>
