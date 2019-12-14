@@ -97,19 +97,13 @@
         <repository>
           <id>nexus</id>
           <name>testing Nexus Repository</name>
-          <url>http://54.144.213.74:8081/repository/M2-release/</url>
+          <url>http://54.89.215.13:8081/repository/M2-release/</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
           <name>Test snapshot Nexus Repository </name>
-          <url>http://54.144.213.74:8081/repository/M2-Snapshot/</url>
+          <url>http://54.89.215.13:8081/repository/M2-Snapshot/</url>
         </snapshotRepository>
-        <uatrepository>
-          <id>nexus</id>
-          <name>testing Nexus Repository for uat</name>
-          <url>http://54.144.213.74:8081/repository/M2_UAT/</url>
-        </uatrepository>
-
     </distributionManagement>
 
    <profiles>
