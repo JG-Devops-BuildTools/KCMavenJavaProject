@@ -6,7 +6,7 @@
   <artifactId>build-jar</artifactId>
   <packaging>jar</packaging>
   <!-- <version>1.0-SNAPSHOT</version> -->
-  <version>1.4-SNAPSHOT</version>
+  <version>1.5-SNAPSHOT</version>
   <name>Maven Web Project</name>
   <description>Maven java Project for Java</description>
 
@@ -97,12 +97,12 @@
         <repository>
           <id>nexus</id>
           <name>testing Nexus Repository</name>
-          <url>/http://54.89.215.13:8081/repository/M2-release/</url>
+          <url>/http://18.208.148.94:8081/repository/M2-release/</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
           <name>Test snapshot Nexus Repository </name>
-          <url>http://54.89.215.13:8081/repository/M2-Snapshot/</url>
+          <url>http://18.208.148.94:8081/repository/M2-Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
